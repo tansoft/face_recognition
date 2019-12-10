@@ -51,9 +51,9 @@ RUN cd ~ && \
     pip3 install twisted autobahn pyOpenSSL pyinotify service_identity ConfigParser requests
 
 # Copy web service script
-COPY facerec_service.py /root/facerec_service.py
+#COPY facerec_service.py /root/facerec_service.py
 
 
 # Start the web service
-CMD cd /root/ && \
-    python3 facerec_service.py
+#CMD cd /root/ && \
+#    python3 facerec_service.py
