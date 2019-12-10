@@ -10,7 +10,7 @@ RUN apt-get -y update && \
     curl \
     graphicsmagick \
     libgraphicsmagick1-dev \
-    libatlas-dev \
+    libatlas-base-dev \
     libavcodec-dev \
     libavformat-dev \
     libboost-all-dev \
